@@ -15,7 +15,7 @@ class Header extends React.Component {
   //getDerivedStateFromProps() {}
   render() {
     return (
-      <div>
+      <div class='Header'>
         <h1>Welcome!</h1>
         <div class="quoteBox">
           <p class="Link">

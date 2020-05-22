@@ -1,11 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Header from './Header.js';
+import TabMenu from './tabMenu/tabMenu.js';
+import Header from './header/header.js';
 import * as serviceWorker from './serviceWorker';
 
+const baseElement = (
+  <div>
+    <Header />
+    <TabMenu />
+  </div>
+);
+
 ReactDOM.render(
-  <Header />,
+  baseElement,
   document.getElementById('root')
 );
 

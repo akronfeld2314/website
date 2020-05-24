@@ -8,7 +8,7 @@ class WelcomeBox extends React.Component {
   //getDerivedStateFromProps() {}
   render() {
     return (
-      <div class='WelcomeBox'>
+      <div className='WelcomeBox'>
         <h1>Software Engineer, Stock Market Enthusiast, INTJ-A, Gamer, Raver, Runner, Would do unspeakable things for 5 minutes of Elon Musk's undivided attention.</h1>
       </div>
     );

@@ -1,4 +1,4 @@
-import React from '../../node_modules/react';
+import React from 'react';
 import './welcomeBox.css';
 
 class WelcomeBox extends React.Component {
@@ -9,7 +9,17 @@ class WelcomeBox extends React.Component {
   render() {
     return (
       <div className='WelcomeBox'>
-        <h1>Software Engineer, Stock Market Enthusiast, INTJ-A, Gamer, Raver, Runner, Would do unspeakable things for 5 minutes of Elon Musk's undivided attention.</h1>
+        <h1>I've got an idea...</h1>
+        <p>
+          My name is Alexander Kronfeld.  I was born on Valentine's Day 1992, I'm INTJ-A,
+          and since graduating college in 2014, I've had a successful career as a software engineer
+          specializing in Full Stack Web Development.
+
+          Enjoy your stay.
+        </p>
+        <p>
+
+        </p>
       </div>
     );
   }

@@ -1,6 +1,5 @@
 :root {
-  --backdrop: #ffffff;
-  --green: #378c42;
+  --backdrop: lightgrey;
 }
 
 html {

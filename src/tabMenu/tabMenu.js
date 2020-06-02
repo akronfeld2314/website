@@ -3,6 +3,7 @@ import { TabList, Tab, Tabs, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import './tabMenu.css';
 import WelcomeBox from '../welcomeBox/welcomeBox.js';
+import WorkingTitle from '../workingTitle/workingTitle.js';
 
 class TabMenu extends React.Component {
   constructor(props) {
@@ -13,18 +14,17 @@ class TabMenu extends React.Component {
     return (
       <Tabs>
         <TabList>
-          <Tab>Welcome!</Tab>
-          <Tab>Guru Maxwell</Tab>
-          <Tab>Hire Me?</Tab>
+          <Tab>Welcome Box</Tab>
+          <Tab>Working Title</Tab>
+          <Tab>Careers</Tab>
         </TabList>
         <TabPanel>
           <WelcomeBox />
         </TabPanel>
         <TabPanel>
-          <GuruMaxwell />
+          <WorkingTitle />
         </TabPanel>
         <TabPanel>
-          <Careers />
         </TabPanel>
       </Tabs>
     );

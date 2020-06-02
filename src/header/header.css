@@ -1,6 +1,6 @@
 .Header {
     height: 40%;
-    background-color: white;
+    background-color: var(--backdrop);
 }
 .quoteBox p {
     margin: 0px;

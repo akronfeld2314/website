@@ -3,7 +3,8 @@ import { TabList, Tab, Tabs, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import './tabMenu.css';
 import WelcomeBox from '../welcomeBox/welcomeBox.js';
-import WorkingTitle from '../workingTitle/workingTitle.js';
+import RemedialStocks from '../remedialStocks/remedialStocks.js';
+import CNBCX from '../cnbcX/cnbcX.js';
 
 class TabMenu extends React.Component {
   constructor(props) {
@@ -15,16 +16,20 @@ class TabMenu extends React.Component {
       <Tabs>
         <TabList>
           <Tab>Welcome Box</Tab>
-          <Tab>Working Title</Tab>
-          <Tab>Careers</Tab>
+          <Tab>Remedial $tonks</Tab>
+          <Tab>CNCB-X</Tab>
         </TabList>
         <TabPanel>
           <WelcomeBox />
         </TabPanel>
         <TabPanel>
-          <WorkingTitle />
+          <RemedialStocks />
         </TabPanel>
         <TabPanel>
+          <CNBCX />
+        </TabPanel>
+        <TabPanel disabled="true">
+
         </TabPanel>
       </Tabs>
     );

@@ -18,6 +18,7 @@ class TabMenu extends React.Component {
           <Tab>Welcome Box</Tab>
           <Tab>Remedial $tonks</Tab>
           <Tab>CNCB-X</Tab>
+          <Tab class='construction' disabled='true'>Careers</Tab>
         </TabList>
         <TabPanel>
           <WelcomeBox />
@@ -28,7 +29,8 @@ class TabMenu extends React.Component {
         <TabPanel>
           <CNBCX />
         </TabPanel>
-        <TabPanel disabled="true">
+          <span class='construction-text'>Coming Soon</span>
+        <TabPanel>
 
         </TabPanel>
       </Tabs>

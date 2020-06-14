@@ -25,10 +25,21 @@ code {
     monospace;
 }
 
+.Header {
+  position: sticky;
+  height: 70px;
+  background-color:rgba(211, 211, 211, 0.5);
+  margin: 10px 0px;
+  top: 10px;
+  left:0px;
+  right:0px;
+  bottom:0px;
+  transition:all .5s;
+}
+
 .construction {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted black;
 }
 
 .construction .construction-text {

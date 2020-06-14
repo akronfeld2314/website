@@ -1,6 +1,9 @@
 .WelcomeBox {
   background-color: var(--backdrop);
 }
-.profile {
+.profileDiv {
     float: right;
-  }
+}
+.profileDiv>img {
+  object-fit:cover;
+}

@@ -1,18 +1,34 @@
-.Header {
-    height: 40%;
-    background-color: var(--backdrop);
+.quoteBox {
+    width: 50%;
+    height: 100px;
+    float: left;
 }
-.quoteBox p {
-    margin: 0px;
+.rightBar {
+    margin-left: 50%;
+    height: 100px;
+}
+.rightBar>p {
+    margin-top: 20px;
+    margin-right: 20px;
+    float: left
 }
 p.Link {
     color: green;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 p.Ganondorf {
     color: red;
     margin-left: 20px;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 p.Zelda {
     margin-left: 40px;
     color: blue;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }

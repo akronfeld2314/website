@@ -2,13 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import TabMenu from './tabMenu/tabMenu.js';
+import WelcomeBox from './welcomeBox/welcomeBox.js';
 import Header from './header/header.js';
 import * as serviceWorker from './serviceWorker';
 
 const baseElement = (
   <div>
     <Header />
-    <TabMenu />
+    <WelcomeBox />
   </div>
 );
 
